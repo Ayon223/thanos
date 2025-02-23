@@ -8,7 +8,7 @@ use Aternos\Thanos\World\AnvilWorld;
 require_once 'vendor/autoload.php';
 
 if (!isset($argv[1])) {
-    exit("Usage: cleanup.php <world> [<output>]\n");
+    exit("Usage: cleanup.php
 }
 
 $input = $argv[1];
@@ -46,7 +46,7 @@ if ($moveOutput) {
 }
 
 echo sprintf('Removed %d chunks in %.2f seconds',
-    $removedChunks,
+    
     round(microtime(true) - $startTime, 2)
 );
 echo PHP_EOL;
